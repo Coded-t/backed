@@ -108,5 +108,4 @@ backend/
 
 mongodb+srv://tbellohar_db_user:bDWU9VzlZyaAsjM3@mobile0.10jgshz.mongodb.net/?appName=mobile0
 
-tbellohar_db_user
-bDWU9VzlZyaAsjM3
+
