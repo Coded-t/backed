@@ -23,6 +23,7 @@ if (process.env.NODE_ENV === 'development') {
 // Middleware
 app.use(cors({
   origin: [
+    '*',
     'http://localhost:19000',
     'http://localhost:19006', 
     'exp://192.168.204.134:19000',
