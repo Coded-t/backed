@@ -41,7 +41,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // Routes
 // Root route for API health check
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.json({ 
     message: 'CBE API is running',
     environment: process.env.NODE_ENV || 'development',
